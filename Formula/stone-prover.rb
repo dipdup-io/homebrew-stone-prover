@@ -4,8 +4,8 @@ class StoneProver < Formula
   license "MIT"
 
   # Эти поля будут заменены workflow через sed
-  url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.6/stone-prover-1.0.6-macos-arm64.tar.gz"
-  sha256 "990caca52d38d9bde7c40c54d85131848fd3b71411ff7444ecdb2c0cc2e09cde"
+  url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.9/stone-prover-1.0.9-macos-arm64.tar.gz"
+  sha256 "8ed584e4834dc77593d107b1413688deba73814f3aacf863672aea2daadfdb0d"
 
   depends_on "gmp"
   depends_on "python@3.9"
