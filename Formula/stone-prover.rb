@@ -11,9 +11,8 @@ class StoneProver < Formula
   depends_on "python@3.9"
 
   def install
-    libexec.install Dir["*"]
-    bin.install_symlink libexec/"cpu_air_prover-#{arch_suffix}" => "cpu_air_prover"
-    bin.install_symlink libexec/"cpu_air_verifier-#{arch_suffix}" => "cpu_air_verifier"
+    bin.install "cpu_air_prover-#{arch_suffix}" => "cpu_air_prover"
+    bin.install "cpu_air_verifier-#{arch_suffix}" => "cpu_air_verifier"
   end
 
   test do
