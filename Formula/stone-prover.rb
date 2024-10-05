@@ -1,8 +1,8 @@
 class StoneProver < Formula
   desc "Stone Prover"
   homepage "https://github.com/baking-bad/stone-prover"
-  url "https://github.com/mrroudyk/stone-packaging/releases/download/v1.0.0/stone-prover-1.0.0.tar.gz"
-  sha256 "PLACEHOLDER_FOR_SHA256"
+  url "https://github.com/dipdup-io/stone-packaging/archive/refs/tags/v3.0.2.tar.gz"
+  sha256 "3a173baa96ba36999885f26eda8b98ca89433a1a027e62d2ae8440e784baf3cf"
   license "MIT"
 
   depends_on "gmp"
