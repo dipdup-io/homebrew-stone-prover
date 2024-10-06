@@ -2,17 +2,17 @@ class StoneProver < Formula
   desc "Stone Prover"
   homepage "https://github.com/baking-bad/stone-prover"
   license "MIT"
-  version "1.0.17"
+  version "1.0.19"
 
   depends_on "gmp"
   depends_on "python@3.9"
 
   if Hardware::CPU.arm?
-    url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.17/cpu_air_prover-arm64.tar.gz"
-    sha256 "5cd83f442f77238540e04d90f9e58715414a2c6595fb0213d8ec3d03b0561958"
+    url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.19/stone-prover-macos-arm64.tar.gz"
+    sha256 "9be65dddb491f3b4ce67948a4e98c676f318c46e7e9442993290ef3e0afa9782"
   else
-    url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.17/cpu_air_prover-x86_64.tar.gz"
-    sha256 "aaa45b26b6389295789903577b7a0e580ed2305e5757b8acd6a8e65cdb844a4d"
+    url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.19/stone-prover-macos-x86_64.tar.gz"
+    sha256 "2f36bf840ee00ea0c775183625ddb982ea8b542635cb38079536747e4398dced"
   end
 
   def install
