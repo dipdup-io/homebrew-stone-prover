@@ -9,8 +9,8 @@ class StoneProver < Formula
 
   bottle do
     root_url "https://github.com/MrRoudyk/stone-packaging/releases/download/v#{version}"
-    sha256 cellar: :any_skip_relocation, arm64_monterey: "SHA256_FOR_ARM64"
-    sha256 cellar: :any_skip_relocation, monterey: "SHA256_FOR_X86_64"
+    sha256 cellar: :any_skip_relocation, sonoma: "${SHA256_x86_64}"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "${SHA256_arm64}"
   end
 
   def install
