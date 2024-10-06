@@ -7,11 +7,11 @@ class StoneProver < Formula
   depends_on "gmp"
   depends_on "python@3.9"
 
-bottle do
-  root_url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.16"
-  sha256 cellar: :any_skip_relocation, sonoma: "128af92a7116d44397f1906d08be7938aa72270ccd45eb3792747354fbdf8ff0"
-  sha256 cellar: :any_skip_relocation, arm64_sonoma: "6d240df90707734046111bba92b3f0009979102874f191b0c6cb02e362f4997a"
-end
+  bottle do
+    root_url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.16"
+    sha256 cellar: :any_skip_relocation, sonoma: "128af92a7116d44397f1906d08be7938aa72270ccd45eb3792747354fbdf8ff0"
+    sha256 cellar: :any_skip_relocation, arm64_sonoma: "6d240df90707734046111bba92b3f0009979102874f191b0c6cb02e362f4997a"
+  end
 
   def install
     arch = Hardware::CPU.arch
