@@ -2,9 +2,9 @@ class StoneProver < Formula
   desc "Stone Prover"
   homepage "https://github.com/baking-bad/stone-prover"
   license "MIT"
-  version "1.0.19"
-  url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.19/stone-prover-macos-arm64.tar.gz"
-  sha256 "9be65dddb491f3b4ce67948a4e98c676f318c46e7e9442993290ef3e0afa9782"
+  version "1.0.32"
+  url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.32/stone-prover-macos-arm64.tar.gz"
+  sha256 "f0a705532639ebd3e22aa14907d329667e77d974f035cb3e8ff9828b2f2957f5"
   
   depends_on "gmp"
   depends_on "python@3.9"
