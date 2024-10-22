@@ -2,12 +2,11 @@ class StoneProver < Formula
   desc "Stone Prover"
   homepage "https://github.com/baking-bad/stone-prover"
   license "MIT"
-  version "1.0.32"
-  url "https://github.com/MrRoudyk/stone-packaging/releases/download/v1.0.32/stone-prover-macos-arm64.tar.gz"
-  sha256 "f0a705532639ebd3e22aa14907d329667e77d974f035cb3e8ff9828b2f2957f5"
+  version "3.0.3"
+  url "https://github.com/dipdup-io/stone-packaging/releases/download/v3.0.3/stone-prover-macos-arm64.tar.gz"
+  sha256 "55b12ab37c09345956352073a6b70c9656b53bb899c22eb628ebbc2fe2292f19"
   
   depends_on "gmp"
-  depends_on "python@3.9"
 
   def install
     bin.install "cpu_air_prover-arm64" => "cpu_air_prover"
